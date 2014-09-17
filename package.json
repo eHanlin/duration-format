@@ -1,0 +1,15 @@
+{
+  "author" : "hotdog929 <hotdog929@gmail.com>",
+  "name" : "duration-format",
+  "description" : "duration formatter",
+  "version" : "0.0.1",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/eHanlin/duration-format.git"
+  },
+  "main" : "lib/duration-format.js",
+  "devDependencies" : {
+    "coffee-script" : ">= 1.8.0"
+  },
+  "keywords" : ["duration", "format", "time", "formatter"]
+}
