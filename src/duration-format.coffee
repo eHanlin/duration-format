@@ -47,5 +47,5 @@ format = (duration, pattern) ->
     result = result.replace(match.str, fill0(match.num, unitValues[match.unit]))
   result
 
-if module then module.exports = format
-if window then window.durationFormat = format
+if module? then module.exports = format
+if window? then window.durationFormat = format
